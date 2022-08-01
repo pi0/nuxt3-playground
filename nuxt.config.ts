@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   nitro: {
     hooks: {
       async compiled() {
-        await execaCommand('tar -cvzf .output/public/app.tgz --exclude node_modules .')
+        await execaCommand('tar -cvzf dist/app.tgz --exclude node_modules .')
       }
     }
   }
