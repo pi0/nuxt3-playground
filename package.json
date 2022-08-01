@@ -59,5 +59,9 @@
     "stylelint-config-standard-vue": "^1.0.0",
     "stylelint-no-unsupported-browser-features": "^5.0.3",
     "stylelint-order": "^5.0.0"
+  },
+  "volta": {
+    "node": "16.16.0",
+    "npm": "8.15.1"
   }
 }
