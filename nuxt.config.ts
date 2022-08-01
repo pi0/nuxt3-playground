@@ -14,12 +14,5 @@ export default defineNuxtConfig({
         // config.build.rollupOptions.output.inlineDynamicImports = true
       }
     }
-  },
-  nitro: {
-    rollupConfig: {
-      output: {
-        inlineDynamicImports: true
-      }
-    }
   }
 })
