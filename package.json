@@ -8,7 +8,14 @@
   },
   "devDependencies": {
     "execa": "^6.1.0",
-    "nuxt": "3.0.0-rc.6",
+    "nuxt": "3.0.0-rc.4",
     "serve-static": "^1.15.0"
+  },
+  "resolutions": {
+    "nuxt": "3.0.0-rc.4",
+    "nuxi": "3.0.0-rc.4",
+    "@nuxt/vite-builder": "3.0.0-rc.4",
+    "@nuxt/kit": "3.0.0-rc.4",
+    "@nuxt/schema": "3.0.0-rc.4"
   }
 }
