@@ -1,67 +1,12 @@
 {
-  "name": "nuxt3-playground",
-  "version": "0.1.0",
-  "description": "Playground for Nuxt3.",
-  "engines": {
-    "node": "16.x.x",
-    "npm": "8.x.x"
-  },
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:stefanfrede/nuxt3-playground.git"
-  },
-  "keywords": [
-    "Nuxt",
-    "Nuxt3"
-  ],
-  "author": {
-    "name": "Stefan Frede",
-    "email": "stefan@frede.dev"
-  },
-  "license": "MIT",
   "private": true,
-  "bugs": {
-    "url": "https://github.com/stefanfrede/nuxt3-playground/issues"
-  },
-  "homepage": "https://nuxt3-playground-sfr.netlify.app/",
-  "lint-staged": {
-    ".{js,vue}": ":eslint --cache --fix",
-    "*.{css,vue}": "stylelint --cache --fix"
-  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "prepare": "husky install"
+    "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0",
-    "@commitlint/config-conventional": "^17.0.0",
-    "browserslist": "^4.20.2",
-    "eslint": "^8.11.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-compat": "^4.0.2",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-prettier": "^4.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^9.1.1",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.1",
-    "nuxt": "npm:nuxt3@latest",
-    "prettier": "^2.7.0",
-    "stylelint": "^14.9.1",
-    "stylelint-color-format": "^1.1.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard-vue": "^1.0.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.3",
-    "stylelint-order": "^5.0.0"
-  },
-  "volta": {
-    "node": "16.16.0",
-    "npm": "8.15.1"
+    "nuxt": "3.0.0-rc.6"
   }
 }

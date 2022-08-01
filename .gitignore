@@ -1,20 +1,8 @@
-# secrets
-.env
-
-# cache
-.cache
-.eslintcache
-.stylelintcache
-
-# logs
+node_modules
 *.log*
-
-# build fragments
 .nuxt
 .nitro
+.cache
 .output
+.env
 dist
-node_modules
-
-# Local Netlify folder
-.netlify

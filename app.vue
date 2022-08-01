@@ -1,9 +1,5 @@
 <template>
   <div>
-    <c-header />
-    <div>
-      <NuxtPage />
-    </div>
-    <c-footer />
+    App
   </div>
 </template>
