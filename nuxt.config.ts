@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     },
     'vite:extendConfig'(config, { isServer }) {
       if (isServer) {
-        config.build.rollupOptions.output.inlineDynamicImports = true
+        // config.build.rollupOptions.output.inlineDynamicImports = true
       }
     }
   },
