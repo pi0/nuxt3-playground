@@ -14,7 +14,7 @@
   "resolutions": {
     "nuxt": "3.0.0-rc.5",
     "nuxi": "3.0.0-rc.5",
-    "@nuxt/vite-builder": "3.0.0-rc.5",
+    "@nuxt/vite-builder": "3.0.0-rc.4",
     "@nuxt/kit": "3.0.0-rc.5",
     "@nuxt/schema": "3.0.0-rc.5"
   }
