@@ -7,8 +7,6 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "execa": "^6.1.0",
-    "nuxt": "3.0.0-rc.6",
-    "serve-static": "^1.15.0"
+    "nuxt": "npm:nuxt3@latest"
   }
 }
