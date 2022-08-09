@@ -1,3 +1,5 @@
 <template>
-  <div>Foobar!</div>
+  <div>
+    Hello <ClientOnly>World!</ClientOnly>
+  </div>
 </template>
