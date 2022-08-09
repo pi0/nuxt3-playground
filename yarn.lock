@@ -2684,9 +2684,9 @@ nanoid@^4.0.0:
   integrity sha512-IgBP8piMxe/gf73RTQx7hmnhwz0aaEXYakvqZyE302IXW3HyVNhdNGC+O2MwMAVhLEnvXlvKtGbtJf6wvHihCg==
 
 nitropack@^0.4.16:
-  version "0.4.17"
-  resolved "https://registry.yarnpkg.com/nitropack/-/nitropack-0.4.17.tgz#c41523fab63555483b6e2cdb970e05ce060ddec5"
-  integrity sha512-jDZzgO50nxwF3zS/XdWrD+0jYFSF7vXrcN1Q5PITGJ9oPRSOlwLTesXF6PE8oI3tLvKfPi8CRavUf8/0UO05eQ==
+  version "0.4.18"
+  resolved "https://registry.yarnpkg.com/nitropack/-/nitropack-0.4.18.tgz#2b02c07f5a33b3e530e2b0f24a8cb5d5e8e946d1"
+  integrity sha512-a+yfJhshq2u/eeohUimICZNbBF+wimoY0lorvn5mhg0udZe44tXhFYs/1rBq3eyez4mKDUr6jgSEWHxKin4ZVg==
   dependencies:
     "@cloudflare/kv-asset-handler" "^0.2.0"
     "@netlify/functions" "^1.0.0"
